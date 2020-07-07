@@ -182,6 +182,6 @@ On the other hand, `IDataView`s are also lazy, so there is no data replication f
   - `TrainTestSplit` and `CrossValidate` to facilitate the respective operations
   - `Trainers` containing various task-specific trainers.
 
-- `MLContext.Log` is a providing a stream of text messages about the long-running processes ML.NET is running.
+- `MLContext.Log` is a stream of text messages about the long-running processes ML.NET is running.
 
 We are continuously adding new extensions to `MLContext` catalog, so if certain operations are not yet available, they will in the future.
